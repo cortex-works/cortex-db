@@ -21,6 +21,6 @@ CortexDB plays a central role in the Data Triad Architecture:
 
 ## 🚀 Phase 3 & 4 Roadmap
 This repository powers **Phase 3** of the Cortex-Works Ecosystem roadmap:
-* **Migration from JSONL to Local-First DBs:** แยก Data Layer ออกมาจาก Sync Engine.
-* **SQLite Integration:** จัดเก็บข้อมูลเชิงสัมพันธ์ (Relational Data) เพื่อเตรียมพร้อมสำหรับระบบโครงสร้างงาน (Epic, Ticket, Agent Assignment).
-* **Embedded LanceDB:** แยก Vector Storage ออกมาเฉพาะ เพื่อการค้นหา Semantic Search ระดับมิลลิวินาที (Zero-config).
+* **Migration from JSONL to Local-First DBs:** Decouple the Data Layer from the Sync Engine.
+* **SQLite Integration:** Store relational data to prepare for the workflow structure system (Epic, Ticket, Agent Assignment).
+* **Embedded LanceDB:** Isolate Vector Storage for millisecond semantic search (Zero-config).
