@@ -2,6 +2,15 @@
 
 **The New Brain: Local-first Database Engine for CortexSync Ecosystem**
 
+> [!WARNING]
+> **🚧 Alpha Version (Under Active Development)**
+> This project is currently in early alpha stage and is undergoing heavy development. Features, APIs, and CLI commands are subject to breaking changes without notice. 
+> 
+> **Current Testing Environment (As of 25 Feb 2026):**
+> Testing is exclusively performed on a developer machine running **macOS Sequoia 15.7.4** with the latest versions of compatible IDEs (Cursor/VS Code/Windsurf). 
+> 
+> *If you are cloning this repository to run on Windows, Linux, or older IDE versions, you may encounter instability or broken features. Cross-platform testing will be expanded in future releases.*
+
 ## 🌟 Overview
 CortexDB is the dedicated database engine for the Cortex-Works ecosystem, managing Scrum logic (Epics, Tickets, Backlog) and Agent Memory. Designed specifically to transition away from flat JSONL ledgers to relational and vector storage, allowing for scalable, enterprise-grade AI agent tracking.
 
